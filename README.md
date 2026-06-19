@@ -12,7 +12,7 @@ przelewy pieniężne
 zarządzanie odbiorcami
 zarządzanie wpłatami
 
-# PythonHacknetRecreation
+# PythonHacknetRecreation (Python, sqlite)
 
 Odtworzenie gry Hacknet w Pythonie z integracją bazy danych do zapisywania i wczytywania stanu gry.
 
