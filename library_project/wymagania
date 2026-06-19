@@ -1,0 +1,66 @@
+Zaawansowane programowanie obiektowe
+Zasady zaliczenia
+
+    Obecność na zajęciach (obowiązują ogólnoakademickie reguły dotyczące dopuszczalnych nieobecności).
+    Systematyczna praca nad projektem zaliczeniowym.
+    Uzyskanie min. 51% punktów z testu kończącego wykład.
+    Uzyskanie min. 51% punktów z końcowego projektu zaliczeniowego oraz oddanie w wyznaczonym terminie.
+
+Projekt zaliczeniowy
+Tematyka projektu
+
+Wariant 1: Na ocenę bardzo dobrą.
+
+Symulator zarządzania biblioteką
+
+Projekt polega na stworzeniu aplikacji konsolowej przeznaczonej do zarządzania biblioteką. Użytkownicy mogą wypożyczać, oddawać, rezerwować książki. Projekt w finalnej wersji ma wykorzystywać minimum po 2 wzorce z każdej grupy: kreacyjnych, strukturalnych oraz czynnościowych. Dobór ich do realizacji konkretnych funkcjonalności jest w pełni dowolny.
+Zasady oceniania
+
+Ocena dostateczna: poprawne i uzasadnione zastosowanie jednego wzorca kreacyjnego, strukturalnego oraz czynnościowego (łącznie 3).
+
+Ocena dobra: poprawne i uzasadnione zastosowanie dwóch wzorców kreacyjnych, dwóch wzorców strukturalnych oraz jednego wzorca czynnościowego (łącznie 5).
+
+Ocena bardzo dobra: poprawne i uzasadnione zastosowanie dwóch wzorców kreacyjnych, dwóch wzorców strukturalnych oraz dwóch wzorców czynnościowych(łącznie 6). Dodatkowo, wykorzystać dowolne narzędzie do utworzenia czytelnego interfejsu (np. biblioteka typer, rich).
+Wymagania funkcjonalne
+
+    Zarządzanie użytkownikami:
+        rejestracja według roli (np. student, wykładowca),
+        logowanie,
+        zróżnicowanie uprawnień według przypisanej roli.
+    Zarządzanie książkami:
+        dodawanie nowych pozycji,
+        usuwanie i edycja istniejących pozycji,
+        przeglądanie dostępnych pozycji.
+    Wypożyczanie i zwroty:
+        możliwość wypożyczenia książki przez zalogowanego użytkownika,
+        zwrot książki przez zalogowanego użytkownika,
+        sprawdzenie dostępności książki.
+    Rezerwacje książek:
+        możliwość rezerwacji niedostępnej książki,
+        automatyczne powiadomienie (komunikat w konsoli) o dostępności zarezerwowanej książki gdy zostanie zarezerowana (symulacja natychmiastowego zwrotu przez innego użytkownika).
+    Historia i cofanie działań:
+        wyświetlanie historii wypożyczeń i zwrotów dla danego użytkownika,
+        możliwość cofnięcia ostatniej operacji (wypożyczenie, zwrot).
+    Symulowane integracja z zewnętrzną bazą książek:
+        możliwość "pobrania" danych książki z zewnętrznej bazy danych na podstawie ISBN. (nie trzeba isbn)
+
+
+wytworcza, \/
+singleton \/
+
+dekorator, \/
+adapter[do pobierania z isbn (zrobic aby moglo uzywac cursor)] \/
+
+iterator, \/
+pamiątka(czy może być z zapisem do i odczytem z sql) \/
+
+
+typer, rich - w miare ogarniete
+
+pytania:
+- czy pamiątka może być z zapisem do i odczytem z sql (tak)
+- czy adapter może być "połączony" z metodą wytwórczą (tak)
+
+
+PRZY LOGOWANIU DODAJ:
+-SPRAWDZENIE CZY ZAREZERWOWANA KSIAZKA JEST DOSTEPNA(JESLI TAK WYSWIETL POWIADOMIENIE)
