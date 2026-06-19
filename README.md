@@ -16,6 +16,10 @@ zarządzanie wpłatami
 
 Odtworzenie gry Hacknet w Pythonie z integracją bazy danych do zapisywania i wczytywania stanu gry.
 
+# Library_project
+
+Aplikacja konsolowa do zarządzania biblioteką. Admin ma możliwość dodawania, edycji i usuwania książek, użytkownik może wypożyczać, oddawać i rezerwować książki. Projekt zawiera 2 wzorce kreacyjne(metoda wytwórcza i singleton), 2 wzorce strukturalne(dekorator i adapter) i 2 wzorce czynnościowe(strategia i iterator)
+
 # Hangman (C++)
 
 Prosta gra w wisielca dla jednego lub wielu graczy, zaimplementowana w C++.
