@@ -1,7 +1,7 @@
 # Projekty
 Repozytorium zawiera wybrane projekty oprogramowania opracowane w celach edukacyjnych i praktycznych.
 
-# BankingApp (Django + MySQL)
+# BankingApp (Django)
 
 Aplikacja internetowa symulująca podstawowy system bankowy. Funkcje obejmują:
 
